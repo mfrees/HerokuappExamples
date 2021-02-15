@@ -34,13 +34,6 @@ namespace HerokuappExamples
             Driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/");
 
         }
-        [Description("Everything which runs after the test has executed.")]
-        [Author("Michael Rees")]
-        [TearDown]
-        public void CleanUpAfterEveryTestMethod()
-        {
-            Driver.Quit();
-            Driver.Close();
-        }
+      
     }
 }
