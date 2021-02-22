@@ -19,8 +19,6 @@ namespace HerokuappExamples
         public void DragAOnToB()
         {
             DragAndDropPO.DragAOverB();
-
-           
         }
     }
 }
