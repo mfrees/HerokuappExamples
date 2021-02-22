@@ -104,6 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageObjects\DropdownListPO.cs" />
     <Compile Include="PageObjects\DragAndDropPO.cs" />
     <Compile Include="PageObjects\DigestAuthPO.cs" />
     <Compile Include="PageObjects\ContextMenuPO.cs" />
@@ -122,6 +123,7 @@
     <Compile Include="TestScenarios\DigestAuthentication.cs" />
     <Compile Include="BasePages\SauceBaseTest.cs" />
     <Compile Include="TestScenarios\DragAndDrop.cs" />
+    <Compile Include="TestScenarios\DropdownListTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
