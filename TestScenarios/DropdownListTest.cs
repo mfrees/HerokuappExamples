@@ -3,7 +3,7 @@ using System;
 
 namespace HerokuappExamples
 {
-    [Description("Scenarios verify the dropdown list functionality.")]
+    [Description("Scenarios to verify the dropdown list functionality.")]
     [Category("Smoke Tests")]
     [Parallelizable]
     [TestFixture]
@@ -18,12 +18,15 @@ namespace HerokuappExamples
         {
             DropdownListPO.SelectOptionOneByValue();
         }
+        [Author("Michael Rees")]
         [Description("Selects from a dropdown list using index.")]
         [Test]
         public void SelectOptionTwo()
         {
             DropdownListPO.SelectOptionTwoByIndex();
         }
+        [Author("Michael Rees")]
+        [Description("Select's all options by iteration!")]
         [Test]
         public void SelectOptionsByIteratingAllOptions()
         {
