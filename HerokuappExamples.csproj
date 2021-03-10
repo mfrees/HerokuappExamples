@@ -104,8 +104,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdEntryPO.cs" />
-    <Compile Include="DynamicLoadingPO.cs" />
+    <Compile Include="PageObjects\AdEntryPO.cs" />
+    <Compile Include="PageObjects\DynamicLoadingPO.cs" />
     <Compile Include="PageObjects\DynamicControlsPO.cs" />
     <Compile Include="PageObjects\DropdownListPO.cs" />
     <Compile Include="PageObjects\DragAndDropPO.cs" />
@@ -128,8 +128,8 @@
     <Compile Include="TestScenarios\DragAndDrop.cs" />
     <Compile Include="TestScenarios\DropdownListTest.cs" />
     <Compile Include="TestScenarios\DynamicControls.cs" />
-    <Compile Include="DynamicLoading.cs" />
-    <Compile Include="AdEntry.cs" />
+    <Compile Include="TestScenarios\DynamicLoading.cs" />
+    <Compile Include="TestScenarios\AdEntry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
