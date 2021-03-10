@@ -104,6 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdEntryPO.cs" />
     <Compile Include="DynamicLoadingPO.cs" />
     <Compile Include="PageObjects\DynamicControlsPO.cs" />
     <Compile Include="PageObjects\DropdownListPO.cs" />
@@ -128,6 +129,7 @@
     <Compile Include="TestScenarios\DropdownListTest.cs" />
     <Compile Include="TestScenarios\DynamicControls.cs" />
     <Compile Include="DynamicLoading.cs" />
+    <Compile Include="AdEntry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
