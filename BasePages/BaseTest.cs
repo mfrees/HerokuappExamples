@@ -18,6 +18,7 @@ namespace HerokuappExamples
             //Driver = factory.Create(BrowserType.Edge);
             Driver = factory.Create(BrowserType.Chrome);
 
+            Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/");
         }
         [Description("Everything which runs after the test has executed.")]

@@ -8,7 +8,7 @@ namespace HerokuappExamples
     [Description("Sauce Labs Testing")]
     [Category("Sauce Labs Testing!")]
     [TestFixture]
-    public class AddRemoveElement : SauceBaseTest
+    public class AddRemoveElement :BaseTest
     {
         internal AddAndRemoveElementPO AddAndRemoveElementPO { get; private set; } //Property for creating the AddAndRemoveElementPO in the setup
 
