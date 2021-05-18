@@ -3,6 +3,8 @@ using OpenQA.Selenium;
 
 namespace HerokuappExamples
 {
+    [Category("Regression Tests")]
+    [Parallelizable]
     [TestFixture]
     public class ABTestControl : BaseTest
     {

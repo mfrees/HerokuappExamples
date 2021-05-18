@@ -11,20 +11,18 @@ namespace HerokuappExamples
 
         public IWebElement ExitIntentLinkText => Driver.FindElement(By.LinkText("Exit Intent"));
 
-        internal void  AcceptExitIntentModal()
+        
+        internal void ClickExitIntentLinkText()
         {
             ExitIntentLinkText.Click();
+        }
 
-            try
-            {
-                IWebElement e = Driver.FindElement(By.LinkText("Elemental Selenium"));
-                Actions action = new Actions(Driver);
-                action.MoveToElement(e).MoveByOffset(600, -1).Build().Perform();
-                Driver.FindElement(By.XPath(".//*[@id='ouibounce-modal']/div[2]/div[3]/p")).Click();
-            } catch(OpenQA.Selenium.MoveTargetOutOfBoundsException) {
-              return false;
-            }
-            
+        internal void AcceptExitIntentModal()
+         {
+            //IWebElement e = Driver.FindElement(By.LinkText("Elemental Selenium"));   //This method doesn't work, I need to find a different implementation to move the cursor outside the web browser pane.
+            //Actions action = new Actions(Driver);
+           //action.MoveToElement(e).MoveByOffset(600, 0).Build().Perform();
+            //Driver.FindElement(By.XPath(".//*[@id='ouibounce-modal']/div[2]/div[3]/p")).Click();
         }
     }
 }

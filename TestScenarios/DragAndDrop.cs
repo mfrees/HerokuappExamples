@@ -3,6 +3,8 @@ using System;
 
 namespace HerokuappExamples
 {
+    [Category("Regression Tests")]
+    [Parallelizable]
     [TestFixture]
     public class DragAndDrop : BaseTest
     {
@@ -20,5 +22,12 @@ namespace HerokuappExamples
         {
             DragAndDropPO.DragAOverB();
         }
+
+        [TearDown]
+        public void ActionsRunAfterEachTest()
+        {
+            Driver.Quit();
+        }
+
     }
 }

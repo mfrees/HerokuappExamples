@@ -27,11 +27,6 @@ namespace HerokuappExamples
 
             //Performing the drag and drop action
             dragAndDrop.Perform();
-
-
-
-            //Actions action = new Actions(Driver);
-            //action.DragAndDrop(Driver.FindElement(By.Id(fromElement)), Driver.FindElement(By.Id("column-b"))).Build().Perform();
         }
     }
 }

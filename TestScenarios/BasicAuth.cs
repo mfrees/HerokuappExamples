@@ -4,6 +4,8 @@ using System;
 
 namespace HerokuappExamples
 {
+    [Category("Regression Tests")]
+    [Parallelizable]
     [TestFixture]
     public class BasicAuth : BaseTest
     {

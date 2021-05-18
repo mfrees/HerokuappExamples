@@ -3,7 +3,7 @@ using System;
 
 namespace HerokuappExamples
 {
-    [Category("Regression Test"), Category("Ad Entry Modal Example")]
+    [Category("Regression Tests"), Category("Ad Entry Modal Example")]
     [Parallelizable]
     [TestFixture]
     public class AdEntry : BaseTest

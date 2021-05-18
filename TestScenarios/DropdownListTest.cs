@@ -4,7 +4,7 @@ using System;
 namespace HerokuappExamples
 {
     [Description("Scenarios to verify the dropdown list functionality.")]
-    [Category("Smoke Tests")]
+    [Category("Smoke Tests"), Category("Regression Tests")]
     [Parallelizable]
     [TestFixture]
     public class DropdownListTest : BaseTest

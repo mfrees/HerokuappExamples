@@ -3,7 +3,8 @@ using OpenQA.Selenium;
 
 namespace HerokuappExamples
 {
-    [Category("Context Menu")]
+    [Category("Context Menu"), Category("Regression Tests")]
+    [Parallelizable]
     [TestFixture]
     public class ContextMenu : BaseTest
     {

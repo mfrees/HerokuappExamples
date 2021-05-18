@@ -7,6 +7,7 @@ namespace HerokuappExamples
     [Description("Dynamic controls changed asynchronously")]
     [Author("Michael Rees")]
     [Category("Regression Tests")]
+    [Parallelizable]
     [TestFixture]
     public class DynamicControls :BaseTest
     {

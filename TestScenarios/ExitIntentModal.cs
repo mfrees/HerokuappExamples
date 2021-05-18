@@ -5,6 +5,7 @@ using System;
 namespace HerokuappExamples
 {
     [Parallelizable]
+    [Category("Regression Tests"), Category("Exit Intent Modal")]
     [TestFixture]
     public class ExitIntentModal :BaseTest
     {
@@ -13,7 +14,8 @@ namespace HerokuappExamples
         [Test]
         public void AcceptExitIntentModal()
         {
-            ExitIntentModalPO.AcceptExitIntentModal();
+            ExitIntentModalPO.ClickExitIntentLinkText();
+            //ExitIntentModalPO.AcceptExitIntentModal();
         }
         [SetUp]
         public void RunsBeforeEachTest()

@@ -21,8 +21,9 @@ namespace HerokuappExamples
         internal void LaunchPageAndAcceptModal()
         {
             EntryAdLinkText.Click();
+            System.Threading.Thread.Sleep(2000); //remove wait
             ModalDialog.Click();
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(4000); //this hard coded wait needs to be changed
             ModalClose.Click();
         }
     }

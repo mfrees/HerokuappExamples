@@ -3,7 +3,8 @@ using OpenQA.Selenium;
 
 namespace HerokuappExamples
 {
-    [Category("CheckBoxes")]
+    [Category("CheckBoxes"), Category("Regression Tests")]
+    [Parallelizable]
     [TestFixture]
     public class Checkboxes : BaseTest
     {

@@ -26,9 +26,9 @@ namespace HerokuappExamples
         {
             DynamicControlsLinkText.Click();
             AddRemoveCheckboxButton.Click();
-            System.Threading.Thread.Sleep(4000);
+            System.Threading.Thread.Sleep(4000); //change
             AddRemoveCheckboxButton.Click();
-            System.Threading.Thread.Sleep(4000);
+            System.Threading.Thread.Sleep(4000); //change
         }
 
         internal void EnableDisableTextBoxDefaultState()
@@ -41,7 +41,7 @@ namespace HerokuappExamples
         {
             DynamicControlsLinkText.Click();
             EnabledDisableButton.Click();
-            System.Threading.Thread.Sleep(5000);
+            System.Threading.Thread.Sleep(5000); //change
             EnabledDisabledTextBox.SendKeys("Testing Text 123!");
         }
     }
