@@ -465,7 +465,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileDownloadPO.cs" />
+    <Compile Include="ForgotPasswordPO.cs" />
+    <Compile Include="PageObjects\FileDownloadPO.cs" />
     <Compile Include="PageObjects\ExitIntentModalPO.cs" />
     <Compile Include="PageObjects\AdEntryPO.cs" />
     <Compile Include="PageObjects\DynamicLoadingPO.cs" />
@@ -493,7 +494,8 @@
     <Compile Include="TestScenarios\DynamicLoading.cs" />
     <Compile Include="TestScenarios\AdEntry.cs" />
     <Compile Include="TestScenarios\ExitIntentModal.cs" />
-    <Compile Include="FileDownload.cs" />
+    <Compile Include="TestScenarios\FileDownload.cs" />
+    <Compile Include="ForgotPassword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

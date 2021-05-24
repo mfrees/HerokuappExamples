@@ -12,7 +12,7 @@ namespace HerokuappExamples
         /***************************************
          * Page Objects Below This Point!
          * *************************************/
-        public IWebElement FileToDownload => Driver.FindElement(By.LinkText("Diploma@PC.jpg"));
+        public IWebElement FileToDownload => Driver.FindElement(By.LinkText("some-file.txt"));
 
 
         /***************************************
@@ -23,6 +23,7 @@ namespace HerokuappExamples
         {
             FileToDownload.Click();
             System.Threading.Thread.Sleep(3000); //Wait to let the download finish.
+           //need to implement a assertions to verify the download has actually worked.
         }
 
     }
